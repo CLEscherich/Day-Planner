@@ -1,0 +1,88 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #c4cdd8;
+  color: white;
+}
+
+.present {
+  background-color: #619eff;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.time{
+  background-color: red;
+  float: left;
+
+}
+
+.input-group-prepend{
+  margin-bottom: 10px;
+  
+}
+.input-group-text{
+  background-color: #17a2b8;
+  color: white;
+  padding: 11px;
+  
+}
+
+.form-control{
+  padding: 23px;
+  margin-bottom: 2px;
+  color: blue;
+  
+}
